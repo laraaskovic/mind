@@ -78,6 +78,7 @@ const EnvironmentalTask = () => {
       const crownGeometry = new THREE.ConeGeometry(3, 8, 16);
       const crownMaterial = new THREE.MeshPhongMaterial({ color: 0x228B22 });
       const crown = new THREE.Mesh(crownGeometry, crownMaterial);
+
       crown.position.y = 6; // Set crown position on top of the trunk
 
       const tree = new THREE.Group();
@@ -92,7 +93,6 @@ const EnvironmentalTask = () => {
       renderer.render(scene, camera);
     };
 
-    // Call init() to initialize the scene
     init();
     // Start the animation loop
     animate();
