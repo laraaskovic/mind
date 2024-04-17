@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 
-const EnvironmentalTask = () => {
+export const EnvironmentalTask = () => {
   const mountRef = useRef(null);
 
   useEffect(() => {
