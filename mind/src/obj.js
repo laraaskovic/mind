@@ -23,7 +23,7 @@ export const EnvironmentalTask = () => {
 
       // Create ground
       const groundGeometry = new THREE.PlaneGeometry(100, 100);
-      const groundMaterial = new THREE.MeshPhongMaterial({ color: 0x00ff00, side: THREE.DoubleSide });
+      const groundMaterial = new THREE.MeshPhongMaterial({ color: 0x00ff0f, side: THREE.DoubleSide });
       const ground = new THREE.Mesh(groundGeometry, groundMaterial);
       ground.rotation.x = -Math.PI / 2;
       scene.add(ground);
