@@ -16,7 +16,7 @@ function App() {
         transform: 'translate(-50%, -50%)',
         textAlign: 'center',
         color: 'grey',
-        zIndex: 3, // Ensure the content is rendered on top of the 3D scene
+        zIndex: 1, // Ensure the content is rendered on top of the 3D scene
       }}>
         <h1>Plant a Tree!</h1>
       </div>
